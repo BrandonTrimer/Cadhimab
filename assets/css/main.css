@@ -2163,7 +2163,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #fff;
+		background: #202020;
 		/*margin: 0 0 2em 0;*/
 		padding: 6em 0 6em 0;
 	}
@@ -2418,7 +2418,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: #202020;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2426,6 +2426,8 @@ input, select, textarea {
 
 		#banner header > p {
 			margin-bottom: 0;
+			margin-left: 10%;
+			margin-right: 10%;
 		}
 
 /* Content */
@@ -2519,7 +2521,7 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
-		background: #fff;
+		background: #202020;
 	}
 
 		.carousel .forward, .carousel .backward {
