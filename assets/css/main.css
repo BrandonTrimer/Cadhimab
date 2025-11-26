@@ -158,7 +158,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #ef8376;
+			color: #1c3c81;
 			border-bottom-color: transparent;
 		}
 
@@ -1935,7 +1935,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #74b0e9;
 				}
 
 /* Form */
@@ -1952,7 +1952,7 @@ input, select, textarea {
 	form input[type="password"],
 	form select,
 	form textarea {
-		-webkit-appearance: none;
+		/*-webkit-appearance: none;*/
 		display: block;
 		border: 0;
 		background: #fafafa;
@@ -2546,7 +2546,7 @@ input, select, textarea {
 				-o-transition: background-color 0.35s ease-in-out;
 				-ms-transition: background-color 0.35s ease-in-out;
 				transition: background-color 0.35s ease-in-out;
-				-webkit-backface-visibility: hidden;
+				/*-webkit-backface-visibility: hidden;*/
 			}
 
 			.carousel .forward:after, .carousel .backward:after {
