@@ -1759,6 +1759,19 @@ input, select, textarea {
 	.row > section, .row > article {
 		margin-bottom: 0;
 	}
+	/*----------*/
+	.row > article  > a > img {
+		border-radius: 8px;
+		box-shadow: 3px 5px 5px rgba(1, 5, 8, 0.664);
+		transition: 0.3s;
+	}
+	.row > article  > a > img:hover {
+		border-radius: 8px;
+		box-shadow: 3px 5px 5px 5px rgba(1, 5, 8, 0.664);
+		
+	}
+
+	
 
 	header {
 		margin: 0 0 1em 0;
@@ -1783,6 +1796,13 @@ input, select, textarea {
 		display: inline-block;
 		border: 0;
 		outline: 0;
+	}
+	.image > img{
+		transition: 0.3s;
+	}
+	.image > img:hover{
+		transform: scale(1.06);
+		transition: 0.3s;
 	}
 
 		.image img {
@@ -2163,7 +2183,7 @@ input, select, textarea {
 /* Wrapper */
 
 	.wrapper {
-		background: #202020;
+		background: #ffffff;
 		/*margin: 0 0 2em 0;*/
 		padding: 6em 0 6em 0;
 	}
@@ -2418,7 +2438,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #202020;
+		background: #ffffff;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
@@ -2521,7 +2541,7 @@ input, select, textarea {
 		overflow: hidden;
 		padding: 2em 0 2em 0;
 		margin-bottom: 0;
-		background: #202020;
+		background: #ffffff;
 	}
 
 		.carousel .forward, .carousel .backward {
