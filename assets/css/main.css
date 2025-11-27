@@ -1756,6 +1756,33 @@ input, select, textarea {
 			text-align: center;
 		}
 
+/*----------------------------------------------*/	
+	.txt-img > .txt-img-style > .img-section{
+		width: 100%;
+		max-width: 400px;
+		object-fit: cover;
+		vertical-align: middle;
+	}
+	.txt-img-style{
+		padding: 0 15px;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+		gap: 5rem;
+	}
+	.txt-section{
+		flex: 1;
+	}
+
+	/*.container > .txt-img > .txt-img-style{
+		display: flex;
+		border: solid red;
+		align-items: center;
+		padding-right: 2em;
+		padding-left: 2em;
+	}*/
+
 	.row > section, .row > article {
 		margin-bottom: 0;
 	}
