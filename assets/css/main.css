@@ -2169,6 +2169,9 @@ input, select, textarea {
 		}
 
 /* Icons */
+	.icons > li{
+		margin: 7px;
+	}
 
 	.icon {
 		text-decoration: none;
